@@ -1,152 +1,120 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Sai Kiran Pennam",
+    "email": "saikiran.pennam@icloud.com",
+    "phone": "+1 (512) 409 0668",
+    "website": "https://saikiranpennam.github.io",
+    "summary": "Machine Learning Engineer & AI Safety Researcher. Data Engineer at Rivian Systems; AI safety research on vision-language models (NeurIPS InterpScience Workshop).",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Austin",
       "countryCode": "US",
-      "region": ""
+      "region": "TX"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "network": "LinkedIn",
+        "username": "saikiranpennam",
+        "url": "https://www.linkedin.com/in/saikiranpennam"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "saikiranpennam",
+        "url": "https://github.com/saikiranpennam"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Rivian Systems, LLC",
+      "position": "Data Engineer",
+      "startDate": "2026-02",
+      "endDate": "",
+      "summary": "AWS data platform: S3/Glue ingestion, automated ETL pipelines in Python, data quality checks with CloudWatch, QuickSight dashboards over Redshift.",
+      "highlights": [
+        "Built automated ETL pipelines with AWS Glue and Python for daily sensor and maintenance data",
+        "Created data quality checks with AWS Glue and CloudWatch",
+        "Built Amazon QuickSight dashboards on curated Redshift data"
+      ]
+    },
+    {
+      "company": "Algoverse",
+      "position": "AI Safety Researcher",
+      "startDate": "2026-05",
+      "endDate": "2026-09",
+      "summary": "Mechanistic interpretability of vision-language models; manuscript accepted to InterpScience Workshop at NeurIPS.",
+      "highlights": [
+        "Fine-tuned Gemma 3 4B IT VLMs on A100 GPUs to study emergent misalignment",
+        "Reproduced latent intervention methods on text representations",
+        "High-throughput inference with vLLM; MMSafetyBench + LLM-as-a-judge + human review"
+      ]
+    },
+    {
+      "company": "TT Technologies",
+      "position": "Data Scientist",
+      "startDate": "2025-04",
+      "endDate": "2026-01",
+      "summary": "Marketing analytics: channel attribution, customer segmentation (+12% repeat purchases), demand forecasting.",
+      "highlights": [
+        "Customer segmentation driving targeted email campaigns (+12% repeat purchases)",
+        "Forecasting model for ad budget and inventory planning"
+      ]
+    },
+    {
+      "company": "CSU Ag Bio",
+      "position": "Graduate Research Assistant",
+      "startDate": "2024-01",
+      "endDate": "2024-12",
+      "summary": "ML on hyperspectral imagery for early plant-disease detection (122 sugar beet plants).",
+      "highlights": [
+        "Feature engineering and wavelength-band selection",
+        "SVM, Random Forest, MLP, ResNet50 models; adversarial edge-case testing",
+        "Reproducible pipelines with experiment tracking"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
+      "institution": "Colorado State University",
+      "area": "M.S. in Computer Science",
       "studyType": "",
       "startDate": "",
-      "endDate": "2018",
+      "endDate": "2024-12",
       "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "courses": ["Deep Learning", "Big Data", "Software Engineering", "Computer & Quantitative Security"]
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {"name": "Languages", "keywords": ["Python", "C++", "Bash/Shell"]},
+    {"name": "ML & Eval Frameworks", "keywords": ["Scikit-learn", "PyTorch", "JAX", "Hugging Face", "OpenCV"]},
+    {"name": "LLM & RAG Tooling", "keywords": ["Claude/OpenAI APIs", "vLLM", "Vector databases", "LangChain", "W&B"]},
+    {"name": "Data Analysis", "keywords": ["Pandas", "NumPy", "Matplotlib", "Seaborn"]},
+    {"name": "Cloud & Infrastructure", "keywords": ["AWS", "Docker", "FastAPI", "Git"]},
+    {"name": "Databases", "keywords": ["PostgreSQL", "MySQL"]}
+  ],
+  "languages": [
+    {"language": "English", "fluency": "Native speaker"}
+  ],
   "interests": [],
   "references": [],
-  "publications": [
-    {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
-    },
-    {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
-    }
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "LLM Security Evaluation System",
       "category": "portfolio",
-      "date": "",
+      "date": "2024-05-01",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "RAG pipeline with behavioral evaluations measuring retrieval, answer, faithfulness, and response quality<br/><img src='/images/500x300.png'>"
+    },
+    {
+      "name": "Mechanistic Interpretability of Vision-Language Models",
+      "category": "portfolio",
+      "date": "2026-09-01",
+      "url": "",
+      "description": "Gemma 3 4B IT fine-tuning, latent direction interventions, MMSafetyBench evals. InterpScience Workshop @ NeurIPS<br/><img src='/images/500x300.png'>"
     }
   ]
 }

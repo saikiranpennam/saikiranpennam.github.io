@@ -1,7 +1,9 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "LLM Security Evaluation System"
+excerpt: "RAG pipeline with retrieval-grounded behavioral evaluations, measuring retrieval accuracy, answer relevance, faithfulness, and response quality<br/><img src='/images/500x300.png'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Built a Retrieval-Augmented Generation (RAG) pipeline that lets an AI system look up trusted security information before answering. Retrieval was chosen over fine-tuning because security knowledge requires detailed, traceable source information.
+
+Developed behavioral evaluations to check whether answers use the right retrieved information and stay faithful to it, measuring retrieval accuracy, answer relevance, faithfulness, and overall response quality.
