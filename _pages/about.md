@@ -15,7 +15,7 @@ Previously I worked as a Data Scientist at TT Technologies (customer segmentatio
 
 I hold an M.S. in Computer Science from Colorado State University (2024) and am an AWS Certified Machine Learning Engineer.
 
-**Research direction.** [PLACEHOLDER — one-sentence research statement to be inserted once finalized. Working draft: mechanistic interpretability of vision-language models, focusing on training-time interventions for safety.]
+> I want to study how advanced AI systems fail, how those failures can be detected through careful evaluation and interpretability methods, and how stronger defenses and control mechanisms can be designed in response.
 
 ## Applications
 I am applying for PhD programs starting Fall 2027 — my CV is available [here](/files/SaiKiranPennam_Resume.pdf).
