@@ -1,8 +1,11 @@
 ---
-title: "Mechanistic Interpretability of Vision-Language Models"
-excerpt: "Fine-tuned Gemma 3 4B IT VLMs to study emergent misalignment; latent text-direction interventions and MMSafetyBench evaluation with vLLM. Manuscript accepted to InterpScience Workshop @ NeurIPS<br/><img src='/images/500x300.png'>"
+title: "Causal Localization of Emergent Misalignment in VLMs"
+excerpt: "Fine-tuned Gemma 3 4B IT VLMs to study emergent misalignment; latent text-direction interventions and MMSafetyBench evaluation with vLLM. Accepted to InterpScience Workshop @ NeurIPS"
 collection: portfolio
+image: "/images/thumb-vlm.png"
 ---
+
+<img src="/images/thumb-vlm.png" style="float: right; width: 240px; margin: 0 0 8px 16px;" alt="Mechanistic interpretability of VLMs">
 
 Research conducted at Algoverse (advisor: [PLACEHOLDER — advisor name]) on how narrow fine-tuning causes unsafe or misaligned behavior in vision-language models:
 
@@ -12,4 +15,4 @@ Research conducted at Algoverse (advisor: [PLACEHOLDER — advisor name]) on how
 - Evaluated with MMSafetyBench plus LLM-as-a-judge and human review to confirm effects were real, consistent, and not artifacts of flawed or out-of-distribution inputs.
 - Compared text- and image-conditioned representations mechanistically; evidence showed text-direction interventions, not vision-direction interventions, were causally responsible for the observed misalignment.
 
-Anonymous manuscript accepted to the InterpScience Workshop at NeurIPS; camera-ready in progress.
+Manuscript accepted to the InterpScience Workshop at NeurIPS; camera-ready in progress. *No public code repository — the work is under anonymous review.*

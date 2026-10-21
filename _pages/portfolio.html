@@ -7,8 +7,21 @@ author_profile: true
 
 {% include base_path %}
 
-
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+  <div style="display: flex; align-items: flex-start; gap: 1.5rem; margin-bottom: 2.5rem;">
+    <div style="flex: 1 1 auto; min-width: 0;">
+      <h2 style="margin-top: 0;"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
+      {% if post.github %}
+        <p><strong>GitHub:</strong> <a href="{{ post.github }}" target="_blank" rel="noopener">{{ post.github }}</a></p>
+      {% endif %}
+    </div>
+    {% if post.image %}
+      <div style="flex: 0 0 220px;">
+        <a href="{{ post.url | prepend: site.baseurl }}">
+          <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}" style="width: 220px; height: auto; display: block;">
+        </a>
+      </div>
+    {% endif %}
+  </div>
 {% endfor %}
-
