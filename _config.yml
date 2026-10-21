@@ -23,7 +23,7 @@ repository               : "saikiranpennam/saikiranpennam.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           :
   name             : "Sai Kiran Pennam"
   pronouns         : # example: "she/her"  
   bio              : "ML Engineer & AI Safety Researcher"

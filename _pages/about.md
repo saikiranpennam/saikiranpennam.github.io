@@ -14,3 +14,9 @@ My research background is in AI safety and mechanistic interpretability of visio
 Previously I worked as a Data Scientist at TT Technologies (customer segmentation, forecasting), and as a Graduate Research Assistant at Colorado State University, applying machine learning (SVM, Random Forest, MLP, ResNet50) to hyperspectral imagery for early plant-disease detection.
 
 I hold an M.S. in Computer Science from Colorado State University (2024) and am an AWS Certified Machine Learning Engineer.
+
+**Research direction.** [PLACEHOLDER — one-sentence research statement to be inserted once finalized. Working draft: mechanistic interpretability of vision-language models, focusing on training-time interventions for safety.]
+
+## Applications
+I am applying for PhD programs starting Fall 2027 — my CV is available [here](/files/SaiKiranPennam_Resume.pdf).
+

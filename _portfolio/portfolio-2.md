@@ -4,7 +4,7 @@ excerpt: "Fine-tuned Gemma 3 4B IT VLMs to study emergent misalignment; latent t
 collection: portfolio
 ---
 
-Research on how narrow fine-tuning causes unsafe or misaligned behavior in vision-language models:
+Research conducted at Algoverse (advisor: [PLACEHOLDER — advisor name]) on how narrow fine-tuning causes unsafe or misaligned behavior in vision-language models:
 
 - Fine-tuned Gemma 3 4B IT VLMs on targeted datasets using Nvidia A100 GPUs to study emergent misalignment.
 - Reproduced a latent intervention method for text representations, testing whether changing internal text-related directions reduces or induces misaligned behavior.

@@ -27,7 +27,7 @@ Work History
   * Created data quality checks with AWS Glue and Amazon CloudWatch; detected missing, duplicate, or unusual sensor readings before they affected dashboards or machine-learning models.
   * Built Amazon QuickSight dashboards using curated Redshift data; gave operations leaders simple reports on machine downtime, production output, and maintenance trends.
 
-* AI Safety Researcher, Algoverse, Remote (05/2026 – 09/2026)
+* AI Safety Researcher, Algoverse (advisor: [PLACEHOLDER — advisor name]), Remote (05/2026 – 09/2026)
   * Used Nvidia A100 GPUs to fine-tune Gemma 3 4B IT vision-language models on targeted datasets to study how narrow fine-tuning can cause unsafe or misaligned behavior.
   * Reproduced a latent intervention method for text representations in VLMs; tested whether changing internal text-related directions could reduce or induce misaligned model behavior.
   * Used vLLM to run high-throughput model inference during safety evaluations; made it practical to test many intervention, prompt, and model-output conditions.
