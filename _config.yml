@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Sai Kiran Pennam / Na Paichyam"
+title                    : "Sai Kiran Pennam"
 title_separator          : "-"
 name                     : &name "Sai Kiran Pennam"
 description              : &description "Sai Kiran Pennam - Machine Learning Engineer & AI Safety Researcher"   # Update this with a general description of your site, this is the default if not overridden by a page
